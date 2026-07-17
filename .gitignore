@@ -1,6 +1,11 @@
-# Ignore data folders
+# Ignore data folders / symlinks
 data/
 datasets/
+flow_based
+packet_based
+
+# Ignore macOS metadata
+.DS_Store
 
 # Ignore large file formats
 *.csv
@@ -8,3 +13,5 @@ datasets/
 
 # Ignore Python environment cache
 __pycache__/
+.venv/
+.mplconfig/

@@ -1,7 +1,7 @@
 from helpers import *
 
-#path = 'packet_based' # Path to packet files. Uncomment below for flow based
-path = 'flow_based' # path to flow flies
+path = 'packet_based' # Path to packet files. Uncomment below for flow based
+#path = 'flow_based' # path to flow flies
 
 # Load benign and attack csvs, and sample as reqested
 df_combined_sampled = load_csv(path)

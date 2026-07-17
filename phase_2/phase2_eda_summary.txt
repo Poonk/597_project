@@ -1,0 +1,30 @@
+### PHASE 2 EDA SUMMARY ###
+
+Class counts:
+label
+benign             200000
+brute_force           902
+XSS                   902
+DDOS-HTTP_flood       902
+DoS-HTTP              902
+DNS_spoofing          902
+
+PCA variance PC1=0.5708, PC2=0.2055, total=0.7763
+Benign centroid distance — benign median=10.0060, attack median=13.4415
+
+Top mean-diff features:
+jitter                  2.667045
+stream                  0.459459
+stream_jitter_60_sum    0.453407
+stream_60_count         0.436093
+stream_30_count         0.403369
+stream_1_count          0.397760
+stream_10_count         0.360593
+stream_5_count          0.346644
+min_p                   0.336252
+stream_jitter_30_sum    0.333536
+most_freq_spot          0.284844
+min_et                  0.241782
+stream_jitter_10_sum    0.223145
+channel_1_count         0.222390
+q1_p                    0.215304
